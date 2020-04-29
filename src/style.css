@@ -1,0 +1,11 @@
+body {
+  background-color: #f1f3f5;
+  padding: 5px;
+}
+
+* {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.chart {
+  font-size: 14px;
+}

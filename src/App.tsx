@@ -1,18 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import DemographicPieChart from "./components/DemographicPieChart";
+import DemographicBarChart from "./components/DemographicBarChart";
+import RainFallBarChart from "./components/RainFallBarChart";
+import TemperatureLineChart from "./components/TemperatureLineChart";
+import RainFallAreaChart from "./components/RainFallAreaChart";
+import RainFallTemperatureComposedChart from "./components/RainFallTemperatureComposedChart";
+import "./style.css";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          First React App With TypeScript
-        </p>
-      </header>
+    <div>
+      <RainFallBarChart />
+      <RainFallAreaChart />
+      
+      <TemperatureLineChart />
+      <RainFallTemperatureComposedChart />
+
+      <DemographicPieChart />
+      <DemographicBarChart />
     </div>
   );
-}
-
+};
 export default App;
+
