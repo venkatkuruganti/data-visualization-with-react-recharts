@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Run the app in the development mode:
 
+`yarn install` - this will only need to be done once at the start to install all the required dependencies.
+
 `yarn start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
